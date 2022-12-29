@@ -26,13 +26,15 @@
       </head>
       <body>
         <script>
-          // Section 2, Question 1 - Convert age into days.
-          //create a variable and store the value of age in years
-          let ageInYears = 24;
-          //create another variable and store the value of age in days using multiplication operator
-          let ageInDays = ageInYears * 365;
-          //Print the value
-          document.write(ageInDays);
+          // Question 2- Is string a Palindrome?
+          let pld = "civic"; //Create  a string and store a palindrome in it.
+          for (let i = 0; i < pld.length / 2; i++) {
+            if (pld[i] == pld[pld.length - 1 - i]) {
+              document.write("true");
+            } else {
+              document.write("false");
+            }
+          }
         </script>
 
         <!-- Optional JavaScript -->
